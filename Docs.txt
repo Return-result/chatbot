@@ -1,0 +1,339 @@
+We use cookies on our websites to deliver our online services. Details about how we use cookies and how you may disable them are set out in our Privacy Statement. By using this website you agree to our use of cookies.×
+
+Jump to navigation
+Opensource.com
+Opensource.com
+RedHat
+LOG IN
+SIGN UP
+Search formSearch
+Search opensource.com
+Articles
+Containers
+DevOps
+Gaming
+Government
+Hardware
+3D printing
+Arduino
+Raspberry Pi
+Kubernetes
+Law
+Licensing
+Patents
+Linux
+Command line
+OpenStack
+Programming
+Go
+JavaScript
+Python
+SysAdmin
+Resources
+What is open source?
+The open source way
+Projects and applications
+Organizations
+Cloud technology
+Ansible
+Big data
+Data science
+Docker
+Git
+Internet of things
+Java
+Kubernetes
+Linux containers
+Microservices
+OpenStack
+Python
+Python GUI frameworks
+Python IDEs
+Python template libraries
+Python web scrapers
+Software defined networking
+Virtualization
+Open source alternatives
+Alternatives to Acrobat
+Alternatives to AutoCAD
+Alternatives to Dreamweaver
+Alternatives to Gmail
+Alternatives to MATLAB
+Alternatives to Minecraft
+Alternatives to Google Photos
+Alternatives to Photoshop
+Alternatives to Publisher
+Alternatives to Skype
+Alternatives to Slack
+Alternatives to Trello
+More...
+Linux
+Downloads
+Cheat sheets
+AWK cheat sheet
+Bash cheat sheet
+Blender cheat sheet
+Emacs cheat sheet
+Firewall Cheat Sheet
+FreeDOS cheat sheet
+GIMP cheat sheet
+GNOME cheat sheet
+Groff macros cheat sheet
+Go cheat sheet
+i3 window manager cheat sheet
+Inkscape Cheat Sheet
+IRC cheat sheet
+Java cheat sheet
+Linux common commands cheat sheet
+Linux user permissions cheat sheet
+Microservices cheat sheet
+Networking cheat sheet
+Pandoc cheat sheet
+pip cheat sheet
+Python 3.7 cheat sheet
+Raspberry Pi cheat sheet
+SELinux cheat sheet
+SSH cheat sheet
+Open Source Yearbook
+2015
+2016
+2017
+2018
+2019 Special Edition
+Programming guides
+7 essential PyPI libraries
+DevOps guides
+Starting a DevOps transformation
+Introduction to Small Scale Scrum
+Getting started with DevSecOps
+DevOps monitoring tools guide
+DevOps hiring guide
+Sysadmin guides
+Ansible Automation for Sysadmins
+Containers primer
+eBooks
+Getting started with Kubernetes
+Inter-process communication in Linux
+5 open source collaboration tools
+6 open source tools for staying organized
+7 open source desktop tools
+Raspberry Pi: How to get started
+About
+Join us
+Register
+Rules for comments and discussions
+Contribute to DevOps resources
+Correspondent Program
+Contributor Club
+Points and badges
+Delete your account
+For writers
+Write for us
+Editorial calendar
+Writing topics
+Article submission and style guide
+Tips for promoting your Opensource.com article
+Writer testimonials
+Meet the team
+Press kit
+Contact
+Open Organization
+Get started
+Book series
+Field Guide
+Leaders Manual
+Guide to IT Culture Change
+Guide for Educators
+Workbook
+Organize for Innovation
+Resources
+What is an open organization?
+How open is your organization?
+What is an open decision?
+Discussion Guides
+Newsletter
+Ambassadors community
+Meet the ambassadors
+LOG INSIGN UP
+TWITTERFACEBOOKFEED
+What is good documentation for software projects? | Opensource.com
+What is good documentation for software projects?
+Mixing experienced tech writers with open source communities reveals new approaches for creating better docs.
+06 Apr 2020 Cameron Shorter Feed 22up 3 comments
+Typewriter with hands
+Image credits : 
+rawpixel.com. CC0.
+x
+Subscribe now
+Get the highlights in your inbox every week.
+
+
+
+The Open Geospatial (OSGeo) Foundation recently participated in Google's first Season of Docs, in which Google sponsored senior technical writers to contribute to open source projects. OSGeo is an umbrella organization for around 50 geospatial open source projects. I've contributed to a number of these projects over the years and recently co-mentored the two Season of Docs technical writers Google allocated to OSGeo.
+
+We discovered during our involvement that, like many open source projects, we knew little about:
+
+The state of our docs
+What we were aiming for
+Our priorities
+The details of the challenges we faced
+How to improve
+We discovered:
+
+How hard it is to keep tech docs current
+Skillsets from multiple roles are needed to create good docs
+Open source's docs and writing processes are immature when compared to software development
+It is an exciting problem space with high-value challenges ready to be tackled. It reminds me of the early days of open source, before it became trendy with business.
+
+What should tech writers work on?
+Open source communities welcomed the chance to have tech writers improve our docs and expressed a pressing need for it, but found it hard to articulate exactly what needed to be fixed:
+
+People explained that their project docs often hadn't been updated between doc releases.
+Some projects had new features that had not been documented.
+Other projects had issue lists, collating observed deficiencies, but had no systematic review.
+Most observed that docs were created by developers with no formal tech writing training.
+Many noted that their English docs were written by non-native English speakers.
+But where should we start? We needed to decide on what we wanted and what we should work on first.
+
+Defining good docs
+More Great Content
+Free online course: RHEL technical overview
+Learn Advanced Linux Commands
+Download Cheat Sheets
+Find an Open Source Alternative
+Read Top Linux Content
+Check out open source resources
+We then realized that we didn't have a good definition of "good documentation." For our software projects, we have a comprehensive incubation process to assess the maturity of software and the project's community, but we couldn't find a similar set of metrics to define "good documentation." So we started the Good Docs Project to collate "best-practice templates and writing instructions for documenting open source software." This helped us define what we were aiming for and prioritize what we can achieve with our available resources.
+Documentation audit
+Once we knew what good docs looked like, we could audit the status of a project's docs:
+
+What documentation do we have?
+Does it cover all the functionality?
+Does it cover end-user needs?
+Is the documentation any good?
+We discovered that the quality, currency, and completeness of our OSGeo docs were immature when compared to the quality of the software they described.
+
+It takes a village to raise good docs
+In researching open source projects' documentation needs, it became clear that crafting good docs requires multiple skillsets. Ideally, a doc team has access to:
+
+A developer with a deep understanding of the software being described
+A software user who can explain the application within the context of the application's domain
+An educator who understands the principles of learning
+An information architect who understands how to structure material
+A writer who writes clearly and concisely with good grammar
+Someone who speaks English as a first language (for English docs)
+A translator who is good at translating docs into multiple languages
+A DevOps person who can set up doc-build pipelines
+A community builder, facilitator, and coordinator who can inspire collective action, capture offers of help, and help all these different personas collaborate
+Technical writers usually have a high-level understanding of most of these domains, and their skills are often under-appreciated and under-utilized, especially if they are directed with a vague "just clean up the grammar and stuff."
+
+However, the best docs typically have been influenced by multiple stakeholders. This can be partly achieved by using templates to collaborate between domains, timeframes, projects, and organizations.
+
+Tools for documenting open source projects are painful
+We experienced significant pain in trying to convert between software and writing toolsets. We love the versioning of Git, are frustrated by clunky Markdown interfaces, and want access to editing and review workflows in Word and Google Docs along with grammar and syntax plugin tools such as Grammarly. Translation tools such as Transifex are pretty cool, too.
+
+Could someone please write an application that addresses this use case? Maybe there is an idea in here for a future Google Summer of Code?
+
+Achievements during OSGeo's Season of Docs
+We're quite proud of our achievements during OSGeo's participation in Google's Season of Docs. Our allocated tech writers amplified the effectiveness of our existing documentation communities, and our documentation communities amplified the effectiveness of these tech writers:
+
+Felicity Brand worked with around 50 of OSGeo's open source projects to update the Quickstarts as part of our OSGeoLive distribution of software.
+Swapnil Ogale worked directly with GeoNetwork's documentation team, auditing the breadth and quality of docs, setting up templates for future docs, and updating many of the docs.
+Further:
+
+We kicked off the Good Docs Project to establish "best-practice templates and writing instructions for documenting open source software."
+In conjunction with the OGC and ISO spatial standards communities, we kicked off an OSGeo Lexicon project to coordinate official definitions for terminology used within the OSGeo context. This will apply best-practice definitions to previously haphazard glossaries.
+We did a deep-dive analysis of the documentation challenges faced by QGIS, one of OSGeo's most successful projects. Surprisingly, its biggest problem isn't a lack of tech writers or complicated tools (although they are factors). Key problems center around:
+Poorly capturing community goodwill and offers of assistance
+Lack of direction
+Struggling to keep up with a rapidly evolving software baseline
+Insufficient writing expertise
+A high technical barrier to entry
+Documentation and training being generated outside of the core project
+Awkward documentation tools and processes
+Thanks, Google
+We are grateful to Google for sponsoring Season of Docs. We've learned plenty from Felicity and Swapnil, the great writers that Google provided to us, and we hope what we have learned will help make future Season of Docs initiatives even better.
+
+This originally appeared on Cameron Shorter's blog and is republished with permission.
+
+A person working.
+Open source alternatives to Grammarly for word processing
+Check your writing for spelling, grammar, plagiarism, and style errors using these open source tools.
+Seth Kenlon (Red Hat)
+A pink typewriter
+How to write effective documentation for your open source project
+Documentation quality can make the difference in people trying your project or passing it by.
+Kevin Xu
+Women talking
+Hiring a technical writer in the age of DevOps
+As organizations mature their DevOps practices, it's time to make the technical writer a bigger part of the team.
+Will Kelly
+Topics  
+Documentation
+About the authorCameron ShorterCameron Shorter - Technology demystifier, geospatial business analyst, open source developer.
+More about me
+Recommended reading
+A pink typewriter
+How to write effective documentation for your open source project
+Files in a folder
+Automating the creation of research artifacts
+Python in a coffee cup.
+How to document Python code with Sphinx
+Files in a folder
+Conquering documentation challenges on a massive project
+Remote people connected on clouds
+Why translation platforms matter
+Writing in a notebook
+What is a developer journal?
+3 Comments
+peter_cheer
+Peter Cheer on 06 Apr 2020
+As an occasional non-specalist user of geo-spatial software I have found the documentation of the open source QGIS project to be very good.
+
+Reply Vote up!1
+Greg P
+Greg Pittman on 06 Apr 2020
+One of the things we did with Scribus was that, in addition to the documentation that comes with Scribus, we started a wiki, which was open to anyone who wanted to contribute, and served as something like a developmental area where ideas for trying out new sorts of documentation could be proposed, developed, and honed to something that could later be incorporated into the official manual.
+
+Reply Vote up!2
+Jason Baker
+Jason Baker on 08 Apr 2020
+I just started showing my wife how to get started with QGIS this afternoon. She works for a conservation nonprofit doing land acquisition, and dealing with porting ESRI licenses and getting access to what she needed with ArcGIS was a non-starter. Fortunately, QGIS could do literally everything she needed, and the documentation is excellent. Thanks to everyone volunteering with OSGeo projects to make the open source geospatial ecosystem stronger and more accessible than its proprietary alternative!
+
+Reply Vote up!0
+Comment now
+Login or Register to earn points for your comments.
+Your name *
+E-mail *
+The content of this field is kept private and will not be shown publicly.
+ Accept the Terms of Use to continue. You are licensing your contribution(s) as CC-BY-SA. *
+CAPTCHA
+This question is for testing whether or not you are a human visitor and to prevent automated spam submissions.
+
+Creative Commons License
+Subscribe to our weekly newsletter
+
+
+Get the highlights in your inbox every week.
+
+Find us: Twitter Facebook Youtube Mastodon IRC RSS
+ 
+Privacy Policy Terms of Use Contact Meet the Team Visit opensource.org
+For more discussion on open source and the role of the CIO in the enterprise, join us at The EnterprisersProject.com.
+
+The opinions expressed on this website are those of each author, not of the author's employer or of Red Hat.
+
+Opensource.com aspires to publish all content under a Creative Commons license but may not be able to do so in all cases. You are responsible for ensuring that you have the necessary permission to reuse any work on this site. Red Hat and the Red Hat logo are trademarks of Red Hat, Inc., registered in the United States and other countries.
+
+Copyright ©2019 Red Hat, Inc.
+
+
+
+Twitter
+Facebook
+0
+LinkedIn
+Reddit
+0
+Email
+Mastodon
